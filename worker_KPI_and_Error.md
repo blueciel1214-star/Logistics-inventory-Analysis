@@ -100,6 +100,15 @@
 | 작업량_평가  | 평균을 기준으로 '평균 이상'과 '평균 이하'를 자동 분 |
 | 작업자_유형  | UPH와 오류율을 결합한 최종 판단 |
 
+## 작업자별 생산성 및 오류율 통합분석
+--
+# 사용 SQL
+- [`worker_performance_analysis.sql`](./Logistics-inventory-Analysis/SQL/worker_performance_analysis.sql)
+
+- SBC / CC 데이터를 기반으로 작업자별 생산성과 오류율을 집계하고,
+UPH 및 오류율 기준 작업자 유형을 분류하였다.
+
+![작업자 KPI 분석]
 <img width="1308" height="205" alt="image" src="https://github.com/user-attachments/assets/d0ea91d8-3990-437c-b25a-27e588d26422" />
 :❗UPH(생산성) → 속도  / 오류율 →정확' 를 기준으로 4개의 타입으로 분류
 
@@ -110,8 +119,7 @@
 |UPH 낮음 | 🟨 안정운영형 | ⬛ 개선필요형 |
 
 -
-|🟩 핵심성과형  
-:높은 생산성과 안정적인 정확도를 동시에 보유한 작업자|
+🟩 핵심성과형  :높은 생산성과 안정적인 정확도를 동시에 보유한 작업자
 |---|
 |특징
 빠른 처리 속도
