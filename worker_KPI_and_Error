@@ -19,37 +19,43 @@
 
 ## 데이터 구조
 
-### 작업자 정보 (workers.csv)
-| 컬럼명    |   설명     |
-| --------- |  --------- |
-| worker_id | 작업자 ID  |
-| name      | 작업자 이름 |
+## 물류 ICQA 작업자 성과 분석 프로젝트
 
+## 작업자 정보 (workers.csv)
 
-### SBC 작업 데이터  (sbc_raw.csv)
-| 컬럼명         | 설명       |
-| -------------- | ---------  |
-| worker_id      | 작업자 ID   |
-| location       | 로케이션    |
-| product_name   | 상품명      |
-| system_qty     | 시스템 수량 |
-| real_qty       | 실물 수량   |
-| qty_result     | 판정 결과   |
-| start_worktime | 시작 시간   |
-| final_worktime | 종료 시간   |
+| 컬럼명 | 설명 |
+|---|---|
+| worker_id | 작업자 ID |
+| name | 작업자 이름 |
 
+---
 
+## SBC 작업 데이터 (sbc_raw.csv)
 
-### CC 검수 데이터 (cc_raw.csv)
-| 컬럼명         | 설명          |
-| -------------- |  ------------ |
-| worker_id      | 작업자 ID      |
-| location       | 로케이션       |
-| product_name   | 상품명         |
+| 컬럼명 | 설명 |
+|---|---|
+| worker_id | 작업자 ID |
+| location | 로케이션 |
+| product_name | 상품명 |
+| system_qty | 시스템 수량 |
+| real_qty | 실물 수량 |
+| qty_result | 판정 결과 |
+| start_worktime | 시작 시간 |
+| final_worktime | 종료 시간 |
+
+---
+
+## CC 검수 데이터 (cc_raw.csv)
+
+| 컬럼명 | 설명 |
+|---|---|
+| worker_id | 작업자 ID |
+| location | 로케이션 |
+| product_name | 상품명 |
 | final_real_qty | 최종 실사 수량 |
-| cc_status      | 확정 상태      |
-| 1차 작업시간    | 시작 시간      |
-| 최종 작업시간   | 종료 시간      |
+| cc_status | 확정 상태 |
+| 1차 작업시간 | 시작 시간 |
+| 최종 작업시간 | 종료 시간 |
 
 
 ---
@@ -95,12 +101,12 @@
 | 작업자_유형  | UPH와 오류율을 결합한 최종 판단 |
 
 <img width="1308" height="205" alt="image" src="https://github.com/user-attachments/assets/d0ea91d8-3990-437c-b25a-27e588d26422" />
-:white_check_mark: 'UPH(생산성) → 속도  / 오류율 →정확' 를 기준으로 4개의 타입으로 분류
+:❗UPH(생산성) → 속도  / 오류율 →정확' 를 기준으로 4개의 타입으로 분류
 
-| ------ |  오류율 낮음   | 오류율 높음 |
-| ------ | -------------- | ------ |
-UPH 높음 | 🔰 고성과형  | 🟥 품질리스크형 |
-UPH 낮음 | 🔶 안정형    | 개선필요형 |
+| --- |  오류율 낮음   | 오류율 높음 |
+| --- | --- | --- |
+|UPH 높음 | 🔰 고성과형  | 🟥 품질리스크형 |
+|UPH 낮음 | 🔶 안정형    | 개선필요형 |
 
 
 👤작업자별 업무 스타일 유추 (평가)
