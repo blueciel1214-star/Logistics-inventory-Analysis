@@ -102,7 +102,7 @@
 
 # 작업자별 생산성 및 오류율 통합분석
 ### 사용 SQL
-- [`worker_performance_analysis.sql`](./SQL/worker_performance_error_analysis.sql)
+- [`worker_performance_analysis.sql`](./SQL/GITHUB)생산성지표sql)
 - SBC / CC 데이터를 기반으로 작업자별 생산성과 오류율을 집계하고,
 UPH 및 오류율 기준 작업자 유형을 분류하였다.
 
