@@ -6,7 +6,6 @@ WITH performance_cte AS (
         COALESCE(W.name, C.worker_id) AS 작업자이름,
         C.location,
         C.product_id,
-        C.product_name,
 
         C.final_real_qty AS 작업양,
 
@@ -17,6 +16,7 @@ WITH performance_cte AS (
         ) AS 소요시간_분
 
     FROM cc_raw C
+
     LEFT JOIN workers W
         ON C.worker_id = W.worker_id
 
@@ -28,7 +28,6 @@ WITH performance_cte AS (
         COALESCE(W.name, S.worker_id) AS 작업자이름,
         S.location,
         S.product_id,
-        S.product_name,
 
         S.real_qty AS 작업양,
 
@@ -39,11 +38,14 @@ WITH performance_cte AS (
         ) AS 소요시간_분
 
     FROM sbc_raw S
+
     LEFT JOIN workers W
         ON S.worker_id = W.worker_id
 ),
-	--  재고조사 오류 집계
+
+-- 재고조사 오류 집계
 error_cte AS (
+
     SELECT
         CASE
             WHEN S.qty_result = '불일치'
@@ -63,7 +65,6 @@ error_cte AS (
 
         C.location,
         C.product_id,
-        C.product_name,
 
         CASE
             WHEN S.qty_result = '정상'
@@ -89,16 +90,15 @@ error_cte AS (
         ON S.location = C.location
        AND S.product_id = C.product_id
 
-    -- SBC 작업자 이름 JOIN
     LEFT JOIN workers W_sbc
         ON S.worker_id = W_sbc.worker_id
 
-    -- CC 작업자 이름 JOIN
     LEFT JOIN workers W_cc
         ON C.worker_id = W_cc.worker_id
 ),
 
 performance_summary AS (
+
     SELECT
         worker_id,
         작업자이름,
@@ -109,10 +109,12 @@ performance_summary AS (
         COUNT(DISTINCT CONCAT(location, '|', product_id)) AS 전체_작업_건수
 
     FROM performance_cte
+
     GROUP BY worker_id, 작업자이름
 ),
 
 error_summary AS (
+
     SELECT
         worker_id,
         작업자이름,
@@ -120,11 +122,14 @@ error_summary AS (
         COUNT(DISTINCT CONCAT(location, '|', product_id)) AS 총_오류_건수
 
     FROM error_cte
+
     WHERE 판정_상세유형 != '정상(종료)'
+
     GROUP BY worker_id, 작업자이름
 ),
 
 final_summary AS (
+
     SELECT
         P.worker_id,
         P.작업자이름,
@@ -140,9 +145,7 @@ final_summary AS (
         ROUND(
             P.총_소요시간_분 / NULLIF(P.총_작업양, 0),
             2
-        ) AS 전체_HTP_분,
-
-        P.전체_작업_건수,
+        ) AS 전체_HTP,
 
         COALESCE(E.총_오류_건수, 0) AS 총_오류_건수,
 
@@ -153,6 +156,7 @@ final_summary AS (
         ) AS 오류율_퍼센트
 
     FROM performance_summary P
+
     LEFT JOIN error_summary E
         ON P.worker_id = E.worker_id
 )
@@ -163,28 +167,18 @@ SELECT
 
     총_작업양,
     총_소요시간_분,
+
     전체_UPH,
-    전체_HTP_분,
-    전체_작업_건수,
+    전체_HTP,
+
     총_오류_건수,
     오류율_퍼센트,
 
-   -- 오류율 순위
-    RANK() OVER (ORDER BY 오류율_퍼센트 DESC) AS 오류율_순위,
+    -- 오류율 순위
+    RANK() OVER (
+        ORDER BY 오류율_퍼센트 DESC
+    ) AS 오류율_순위,
 
-    -- 누적 작업량
-    SUM(총_작업양) OVER (ORDER BY 총_작업양 DESC) AS 누적_작업량,
-    
-    -- 누적 비중 퍼센트 (파레토분석)
-    ROUND(
-        SUM(총_작업양) OVER (ORDER BY 총_작업양 DESC) * 100.0 
-        / SUM(총_작업양) OVER (), 
-        2
-    ) AS 누적_비중_퍼센트,
-
-    -- 전체 평균 작업량
-    ROUND(AVG(총_작업양) OVER (), 2) AS 전체_평균_작업량,
-    
     -- 평균 대비 평가
     CASE
         WHEN 총_작업양 > AVG(총_작업양) OVER ()
@@ -196,28 +190,33 @@ SELECT
         ELSE '평균 동일'
     END AS 작업량_평가,
 
+    -- 누적 비중 퍼센트 (파레토 분석)
+    ROUND(
+        SUM(총_작업양) OVER (
+            ORDER BY 총_작업양 DESC
+        ) * 100.0
+        / SUM(총_작업양) OVER (),
+        2
+    ) AS 누적_비중_퍼센트,
+
     -- 작업자 유형 분류
- CASE
+    CASE
 
-    -- UPH 높고 오류율 낮음
-    WHEN 전체_UPH >= AVG(전체_UPH) OVER ()
-     AND 오류율_퍼센트 <= AVG(오류율_퍼센트) OVER ()
-    THEN '핵심성과형'
+        WHEN 전체_UPH >= AVG(전체_UPH) OVER ()
+         AND 오류율_퍼센트 <= AVG(오류율_퍼센트) OVER ()
+        THEN '핵심성과형'
 
-    -- UPH 높고 오류율 높음
-    WHEN 전체_UPH >= AVG(전체_UPH) OVER ()
-     AND 오류율_퍼센트 > AVG(오류율_퍼센트) OVER ()
-    THEN '품질리스크형'
+        WHEN 전체_UPH >= AVG(전체_UPH) OVER ()
+         AND 오류율_퍼센트 > AVG(오류율_퍼센트) OVER ()
+        THEN '품질리스크형'
 
-    -- UPH 낮고 오류율 낮음
-    WHEN 전체_UPH < AVG(전체_UPH) OVER ()
-     AND 오류율_퍼센트 <= AVG(오류율_퍼센트) OVER ()
-    THEN '안정운영형'
+        WHEN 전체_UPH < AVG(전체_UPH) OVER ()
+         AND 오류율_퍼센트 <= AVG(오류율_퍼센트) OVER ()
+        THEN '안정운영형'
 
-    -- UPH 낮고 오류율 높음
-    ELSE '개선필요형'
+        ELSE '개선필요형'
 
-END AS 작업자_유형
+    END AS 작업자_유형
 
 FROM final_summary
 
