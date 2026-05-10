@@ -106,8 +106,9 @@
 - SBC / CC 데이터를 기반으로 작업자별 생산성과 오류율을 집계하고,
 UPH 및 오류율 기준 작업자 유형을 분류하였다.
 
-## ** [작업자 KPI 분석] **
-<img width="1308" height="205" alt="image" src="https://github.com/user-attachments/assets/d0ea91d8-3990-437c-b25a-27e588d26422" />
+## ** [작업자별 KPI 통합 분석] **
+<img width="948" height="209" alt="image" src="https://github.com/user-attachments/assets/beb93026-9257-416a-b86a-b950171df960" />
+
 <sub>❗UPH(생산성) → 속도  / 오류율 →정확' 를 기준으로 4개의 타입으로 분류 </sub>
 
 ## 작업자 유형 분류
