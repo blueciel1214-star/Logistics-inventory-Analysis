@@ -211,7 +211,7 @@ UPH 및 오류율, 작업효율 기준 작업자 유형을 분류하였다.
 <img width="660" height="207" alt="image" src="https://github.com/user-attachments/assets/311eb64f-cbb1-4d77-9bb4-3cffd37a344c" />
 
 ### Pareto Chart
-![Pareto](./Logistics-inventory-Analysis/images/charts/pareto_worker_error.png)
+![Pareto](./images/charts/pareto_worker_error.png)
 
 
 
