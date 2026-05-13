@@ -29,16 +29,15 @@
 ## 물류 ICQA 작업자 성과 분석 프로젝트
 <br/>본 데이터는 실제 센터내  재고조사 흐름을 기반으로 구성하였다.
 
-## 작업자 정보 (workers.csv)
+# 작업자 정보 (workers.csv)
 
 | 컬럼명 | 설명 |
 |---|---|
 | worker_id | 작업자 ID |
 | name | 작업자 이름 |
 
----
 
-## SBC 작업 데이터 (sbc_raw.csv)
+# SBC 작업 데이터 (sbc_raw.csv)
 
 | 컬럼명 | 설명 |
 |---|---|
@@ -51,9 +50,8 @@
 | start_worktime | 시작 시간 |
 | final_worktime | 종료 시간 |
 
----
 
-## CC 검수 데이터 (cc_raw.csv)
+# CC 검수 데이터 (cc_raw.csv)
 
 | 컬럼명 | 설명 |
 |---|---|
