@@ -94,9 +94,9 @@ CC 검수 데이터 (cc_raw.csv)
 UPH 및 오류율, 작업효율 기준 작업자 유형을 분류하였다.
 
 ## ** [작업자별 KPI 통합 지표] **
-<img width="949" height="209" alt="image" src="https://github.com/user-attachments/assets/dda0a450-734a-4365-a175-9746cf2fc280" />  
-<sub>❗UPH(생산성) → 속도  / 오류율 →정확' 를 기준으로 4개의 타입으로 분류 </sub>  
+<sub>❗UPH(생산성) → 속도  , 오류율 →정확' 를 기준으로 4개의 타입으로 분류 </sub>  
 
+<img width="949" height="209" alt="image" src="https://github.com/user-attachments/assets/dda0a450-734a-4365-a175-9746cf2fc280" />  
 
 ![Worker Type](./images/charts/worker_type.png)
 <sub> ※ 점 크기는 작업자 별 총 작업량기준</sub>
