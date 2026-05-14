@@ -94,7 +94,8 @@ CC 검수 데이터 (cc_raw.csv)
 UPH 및 오류율, 작업효율 기준 작업자 유형을 분류하였다.
 
 ## ** [작업자별 KPI 통합 지표] **
-<img width="948" height="209" alt="image" src="https://github.com/user-attachments/assets/beb93026-9257-416a-b86a-b950171df960" />
+<img width="949" height="209" alt="image" src="https://github.com/user-attachments/assets/dda0a450-734a-4365-a175-9746cf2fc280" />
+
 <sub>❗UPH(생산성) → 속도  / 오류율 →정확' 를 기준으로 4개의 타입으로 분류 </sub>
 
 ## 작업자 유형 분류
@@ -128,7 +129,7 @@ UPH 및 오류율, 작업효율 기준 작업자 유형을 분류하였다.
 
 <br>
 
-🟨 안정운영형 : 속도는 다소 낮지만 안정적인 품질을 유지하는 작업자
+🟨 안정작업형 : 속도는 다소 낮지만 안정적인 품질을 유지하는 작업자
 |---|  
 - 안정적인 작업 수행
 - 낮은 리스크
