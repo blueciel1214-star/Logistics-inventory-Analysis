@@ -99,7 +99,8 @@ UPH 및 오류율, 작업효율 기준 작업자 유형을 분류하였다.
 <img width="951" height="208" alt="image" src="https://github.com/user-attachments/assets/4e2cfda1-9f02-49f7-9b92-9c2496b42fe2" />
 
 ![Worker Type](./images/charts/worker_type.png)
-
+### Pareto Chart - 오류율기준 파레토 차트
+![Pareto](./images/charts/pareto_worker_error.png)  
 
 ## 작업자 유형 분류
 | --- |  오류율 낮음   | 오류율 높음 |
@@ -141,6 +142,7 @@ UPH 및 오류율, 작업효율 기준 작업자 유형을 분류하였다.
 
 **|대표작업자|
 |---|
+|나영희 (W03)|
 |전영화 (W05)|
 |박영식 (W10)|
 |홍길동 (W02)|**  
@@ -165,7 +167,8 @@ UPH 및 오류율, 작업효율 기준 작업자 유형을 분류하였다.
 
 **|대표작업자|
 |---|
-|김철수 (W01)|**  
+|김철수 (W01)|
+|김미자 (W04)|**  
 
 <br>
 
@@ -201,10 +204,6 @@ UPH 및 오류율, 작업효율 기준 작업자 유형을 분류하였다.
 ## ** [작업자별 업무기여도] **
 <sub>※ 운영 평가는 평균 대비 작업량, 오류율, 누적 작업 비중을 기준으로 분류</sub>
 
-### Pareto Chart
-![Pareto](./images/charts/pareto_worker_error.png)  
-- 상위 작업자 그룹이 전체 오류의 약 83% 차지, 특정 작업자에 집중되는 현상이 확인
-- 핵심 집중 구간의 작업자의 교육 및 표준화 필요
 
 ---
 ---
