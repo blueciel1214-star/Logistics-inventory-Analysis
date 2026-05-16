@@ -99,8 +99,7 @@ UPH 및 오류율, 작업효율 기준 작업자 유형을 분류하였다.
 <img width="951" height="208" alt="image" src="https://github.com/user-attachments/assets/4e2cfda1-9f02-49f7-9b92-9c2496b42fe2" />
 
 ![Worker Type](./images/charts/worker_type.png)
-<sub> ※ 점 크기는 작업자 별 총 작업량기준</sub>
-<sub> ※ 점선은 평균 기준선</sub>  
+
 
 ## 작업자 유형 분류
 | --- |  오류율 낮음   | 오류율 높음 |
