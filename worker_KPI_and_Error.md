@@ -199,7 +199,6 @@ UPH 및 오류율, 작업효율 기준 작업자 유형을 분류하였다.
 
 
 ## ** [작업자별 업무기여도] **
-<img width="660" height="207" alt="image" src="https://github.com/user-attachments/assets/311eb64f-cbb1-4d77-9bb4-3cffd37a344c" />
 <sub>※ 운영 평가는 평균 대비 작업량, 오류율, 누적 작업 비중을 기준으로 분류</sub>
 
 ### Pareto Chart
