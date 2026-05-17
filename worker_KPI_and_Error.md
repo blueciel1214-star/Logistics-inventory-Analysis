@@ -96,7 +96,7 @@ UPH 및 오류율, 작업효율 기준 작업자 유형을 분류하였다.
 ## ** [작업자별 KPI 통합 지표] **
 <img width="953" height="211" alt="image" src="https://github.com/user-attachments/assets/b67e3d73-c4e8-45b8-adba-107e59ce4101" />
 
-![Worker Type card](./images/charts/worker_type_card.png)
+![Worker Type card](./images/charts/work_type_card.png)
 ![Worker Type](./images/charts/worker_type.png)
 <sub>❗UPH(생산성) → 속도  , 오류율 →정확' 를 기준으로 4개의 타입으로 분류 </sub>  
 
