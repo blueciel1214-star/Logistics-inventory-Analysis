@@ -90,15 +90,15 @@ CC 검수 데이터 (cc_raw.csv)
 ## 📈작업자별 생산성 및 오류율 통합분석
 # 사용 SQL
 - ['KPI 생산성지표 `](./SQL/GITHUB_생산성지표.sql)
-- SBC / CC 데이터를 기반으로 작업자별 생산성과 오류율을 집계하고,
-UPH 및 오류율, 작업효율 기준 작업자 유형을 분류하였다.
-
 ## ** [작업자별 KPI 통합 지표] **
 <img width="953" height="211" alt="image" src="https://github.com/user-attachments/assets/b67e3d73-c4e8-45b8-adba-107e59ce4101" />
 
+  - SBC / CC 데이터를 기반으로 작업자별 UPH 및 오류율 집계하고 분류하여,
+  작업자별 운영 특성과 품질 리스크를 함께 확인하고자 하였다.  
+
 ![Worker Type card](./images/charts/work_type_card.png)
 ![Worker Type](./images/charts/worker_type.png)
-<sub>❗UPH(생산성) → 속도  , 오류율 →정확' 를 기준으로 4개의 타입으로 분류 </sub>  
+❗UPH(생산성) → 속도  , 오류율 →정확' 를 기준으로 4개의 타입으로 분류  
 
 
 ## 작업자 유형 분류
