@@ -96,11 +96,10 @@ UPH 및 오류율, 작업효율 기준 작업자 유형을 분류하였다.
 ## ** [작업자별 KPI 통합 지표] **
 <sub>❗UPH(생산성) → 속도  , 오류율 →정확' 를 기준으로 4개의 타입으로 분류 </sub>  
 
-<img width="951" height="208" alt="image" src="https://github.com/user-attachments/assets/4e2cfda1-9f02-49f7-9b92-9c2496b42fe2" />
+<img width="953" height="211" alt="image" src="https://github.com/user-attachments/assets/b67e3d73-c4e8-45b8-adba-107e59ce4101" />
+
 
 ![Worker Type](./images/charts/worker_type.png)
-### Pareto Chart - 오류율기준 파레토 차트
-![Pareto](./images/charts/pareto_worker_error.png)  
 
 ## 작업자 유형 분류
 | --- |  오류율 낮음   | 오류율 높음 |
@@ -179,7 +178,7 @@ UPH 및 오류율, 작업효율 기준 작업자 유형을 분류하였다.
 따라서, 해당 분류의 작업자들은  
 - 업무기본교육 재진행  
 - 숙련자와의 페어기반으로 점진적 업무 개선 기반 모니터링 운영
-함으로 리스크를 낮출수있도록 한다.  
+추가 관리 필요성이 확인된다.
 
 **|대표작업자|
 |---|
@@ -187,6 +186,19 @@ UPH 및 오류율, 작업효율 기준 작업자 유형을 분류하였다.
 |유지한 (W06)|**  
 
 ---
+## ** [오류 집중도 분석] **
+### Pareto Chart - 오류율기준 파레토 차트
+![Pareto](./images/charts/pareto_worker_error.png)  
+※※ 생산성(UPH)은 로케이션 수가 아닌 실제 상품 처리수량 기준으로 산정하였다.
+동일 로케이션이라도 상품 수량 차이에 따라 실제 작업 강도가 달라질 수 있기 때문이다.
+
+
+
+
+
+
+
+
 
 ## 📈운영 기여도 분석
  : 운영 기여도는 작업자의 처리량과 업무 집중도를 기반으로 현장 운영 의존도를 분석하기 위한 지표이다.  
@@ -200,9 +212,6 @@ UPH 및 오류율, 작업효율 기준 작업자 유형을 분류하였다.
 # 사용 SQL
 - ['작업자 업무기여도`](SQL/GITHUB_생산성지표.sql)
 
-
-## ** [작업자별 업무기여도] **
-<sub>※ 운영 평가는 평균 대비 작업량, 오류율, 누적 작업 비중을 기준으로 분류</sub>
 
 
 ---
