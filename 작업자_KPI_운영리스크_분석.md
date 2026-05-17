@@ -109,7 +109,7 @@
 
 
 ### Pareto Chart - 오류율기준 파레토 차트
-![Pareto](./images/charts/pareto_worker_error.png)  
+📈 ![Pareto](./images/charts/pareto_worker_error.png)  
 ※※ 생산성(UPH)은 로케이션 수가 아닌 실제 상품 처리수량 기준으로 산정하였다.
 동일 로케이션이라도 상품 수량 차이에 따라 실제 작업 강도가 달라질 수 있기 때문이다.
 
