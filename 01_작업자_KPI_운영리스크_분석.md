@@ -1,4 +1,4 @@
-
+<img width="1139" height="132" alt="image" src="https://github.com/user-attachments/assets/ae2b665e-f7a1-412a-8dbd-c3e1ea1852a7" />
 ### 주요 분석 내용
 
 ## 1. 작업자별 KPI 분석 
@@ -17,15 +17,18 @@
 # 사용 SQL
 - ['KPI 생산성지표 `](./SQL/GITHUB_생산성지표.sql)
 ## ** [작업자별 KPI 통합 지표] **
-<img width="953" height="211" alt="image" src="https://github.com/user-attachments/assets/b67e3d73-c4e8-45b8-adba-107e59ce4101" />
+<img width="1048" height="212" alt="image" src="https://github.com/user-attachments/assets/d622551e-7ba1-44cc-a59f-7816c54535e2" />
 
 
   - 생산성(UPH)은 실제 상품 처리수량 기준으로 산정  
   - SBC / CC 데이터를 기반으로 작업자별 UPH 및 오류율 집계하고 분류하여,  
   작업자별 운영 특성과 품질 리스크를 함께 확인하고자 하였다.  
 
-![Worker Type card](./images/charts/work_type_card.png)
-![Worker Type](./images/charts/worker_type.png)
+
+<img width="1139" height="132" alt="image" src="https://github.com/user-attachments/assets/eb91769d-317a-4807-9331-71b7ea71236f" />
+
+<img width="1167" height="483" alt="image" src="https://github.com/user-attachments/assets/5bf0bf26-9ae3-4642-945f-32ef953101a3" />
+
 ❗ UPH(생산성) → 속도  , 오류율 →정확' 를 기준으로 4개의 타입으로 분류   
 
 
