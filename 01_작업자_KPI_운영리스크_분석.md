@@ -104,7 +104,8 @@
 
 
 ### 📈Pareto Chart - 오류율기준 파레토 차트 (80:20)
-<img width="795" height="892" alt="image" src="https://github.com/user-attachments/assets/0dda3bf5-74dc-42f6-b10f-70fa8c64af6a" />
+<img width="1193" height="582" alt="image" src="https://github.com/user-attachments/assets/4309e3c8-7e73-42e0-b94a-4ca46b81b71f" />
+
 
 💡Pareto 분석 결과, 상위 6명의 작업자의 오류가 전체 오류의 약 77%를 차지. (오류의 집중화현상 확인)
 
