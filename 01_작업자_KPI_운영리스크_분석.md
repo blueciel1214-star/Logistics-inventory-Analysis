@@ -26,7 +26,8 @@
 <img width="1154" height="109" alt="image" src="https://github.com/user-attachments/assets/f743ee75-268f-46f7-bf89-182733d371a1" />
 
 
-<img width="1126" height="535" alt="image" src="https://github.com/user-attachments/assets/7ca6bd02-0951-49bc-915e-0fb2b0422bf0" />
+<img width="1180" height="578" alt="image" src="https://github.com/user-attachments/assets/b1bbf13c-c0b4-4a5e-a375-02305f2fc9ab" />
+
 
 
 ❗ UPH(생산성) → 속도  , 오류율 →정확' 를 기준으로 4개의 타입으로 분류   
