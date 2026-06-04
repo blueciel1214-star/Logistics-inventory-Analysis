@@ -106,11 +106,12 @@
 
 
 ### 📈Pareto Chart - 오류율기준 파레토 차트 (80:20)
-<img width="1193" height="582" alt="image" src="https://github.com/user-attachments/assets/4309e3c8-7e73-42e0-b94a-4ca46b81b71f" />
+<img width="1386" height="649" alt="image" src="https://github.com/user-attachments/assets/0c29b7fd-e583-43fa-9ac6-c2f8fb9f1ab6" />
+※ 주황색 = 누적 오류 비율 80% 이내 주요 관리 대상
+※ 회색 = 80% 초과 일반 관찰 대상
 
 
-💡Pareto 분석 결과, 상위 6명의 작업자의 오류가 전체 오류의 약 77%를 차지. (오류의 집중화현상 확인)
+💡Pareto 분석 결과,상위 5명의 작업자가 전체 오류의 약 81%를 차지 (오류의 집중화현상 확인)
 
-이를 통해 전체 작업자 대상의 일괄 관리보다,  
-상위 오류 작업자 중심의 품질 개선 접근이 더 효과적일 수 있음을 확인하였다.  
+이를 통해 우수 작업자의 작업 패턴을 기준화하고 오류 집중 작업자를 우선 관리하는 방식이 운영 효율 개선에 효과적일것으로 추측할 수 잇다.
 
