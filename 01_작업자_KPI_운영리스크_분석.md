@@ -16,17 +16,18 @@
 # 사용 SQL
 - ['KPI 생산성지표 `](./SQL/GITHUB_생산성지표.sql)
 ## ** [작업자별 KPI 통합 지표] **
-<img width="1048" height="212" alt="image" src="https://github.com/user-attachments/assets/d622551e-7ba1-44cc-a59f-7816c54535e2" />
-
+<img width="1008" height="207" alt="image" src="https://github.com/user-attachments/assets/96414f05-762b-47bb-a380-cf10a35da726" />
 
 ※※ 생산성(UPH)은 로케이션 수가 아닌 실제 상품 처리수량 기준으로 산정하였다.  
 동일 로케이션이라도 상품 수량 차이에 따라 실제 작업 강도가 달라질 수 있기 때문이다.  
 
 ※※ 본 쿼리의 불일치율 지표는 특정 로케이션의 최종 마감 상태를 보는 결과 중심 지표가 아니라, 작업자가 현장에서 수행한 모든 SBC 조사 내역을 집계하여, 작업 과정 중 발생한 '불일치 판정'을 누적 계산하여, 이를 통해 로케이션 환경에 가려질 수 있는 작업자 개인의 순수 품질 리스크(human error 성향)를 왜곡 없이 추출하고자 하였습니다.  
 
-<img width="1139" height="132" alt="image" src="https://github.com/user-attachments/assets/eb91769d-317a-4807-9331-71b7ea71236f" />
+<img width="1154" height="109" alt="image" src="https://github.com/user-attachments/assets/f743ee75-268f-46f7-bf89-182733d371a1" />
 
-<img width="1167" height="483" alt="image" src="https://github.com/user-attachments/assets/5bf0bf26-9ae3-4642-945f-32ef953101a3" />
+
+<img width="1126" height="535" alt="image" src="https://github.com/user-attachments/assets/7ca6bd02-0951-49bc-915e-0fb2b0422bf0" />
+
 
 ❗ UPH(생산성) → 속도  , 오류율 →정확' 를 기준으로 4개의 타입으로 분류   
 
