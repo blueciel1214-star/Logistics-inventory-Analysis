@@ -23,7 +23,7 @@
 
 ※※ 본 쿼리의 불일치율 지표는 특정 로케이션의 최종 마감 상태를 보는 결과 중심 지표가 아니라, 작업자가 현장에서 수행한 모든 SBC 조사 내역을 집계하여, 작업 과정 중 발생한 '불일치 판정'을 누적 계산하여, 이를 통해 로케이션 환경에 가려질 수 있는 작업자 개인의 순수 품질 리스크(human error 성향)를 왜곡 없이 추출하고자 하였습니다.  
 
-<img width="1154" height="109" alt="image" src="https://github.com/user-attachments/assets/f743ee75-268f-46f7-bf89-182733d371a1" />
+<img width="1272" height="131" alt="image" src="https://github.com/user-attachments/assets/8056f68b-4a0c-4622-a5e8-f54bc389f7cd" />
 
 
 <img width="1154" height="509" alt="image" src="https://github.com/user-attachments/assets/b4fa42ee-0e95-438b-92d8-9a640a1c7950" />
