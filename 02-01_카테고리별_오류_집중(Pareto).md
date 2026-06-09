@@ -17,7 +17,7 @@
 ---
 ## 📊 1.카테고리별 오류 집중도 분석 (80:20 파레토 법칙의 지배)
 
-<img width="1527" height="646" alt="image" src="https://github.com/user-attachments/assets/fd8d8be9-564f-4488-89cd-286510da0680" />
+<img width="1323" height="548" alt="image" src="https://github.com/user-attachments/assets/a707b27b-eee3-450b-b139-819ded2ca284" />
 
 
 : 특정 카테고리에 오류가 극도로 집중되는 전형적인 파레토 법칙(80:20 법칙)이 확인됨.  
