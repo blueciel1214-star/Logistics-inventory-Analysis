@@ -14,13 +14,11 @@
 
 ---
 
-
 ## 📈 카테고리 및 상품 별 오류상품 추출
 ### 사용 SQL
 - [카테고리_및_상품명_분석_쿼리](./SQL/GITHUB_카테고리_및_상품명_분석_쿼리.sql)  
 ---
 <br>
-
 ## 📊 1.카테고리별 오류 집중도 분석 (80:20 파레토 법칙의 지배)
 
 <img width="583" height="678" alt="image" src="https://github.com/user-attachments/assets/b3e1c658-bf87-4366-afbe-854ba2def372" />
