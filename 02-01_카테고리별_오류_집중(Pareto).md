@@ -20,9 +20,8 @@
 ---
 ## 📊 1.카테고리별 오류 집중도 분석 (80:20 파레토 법칙의 지배)
 
-<img width="583" height="678" alt="image" src="https://github.com/user-attachments/assets/b3e1c658-bf87-4366-afbe-854ba2def372" />
+<img width="1048" height="607" alt="image" src="https://github.com/user-attachments/assets/affd4ecf-0223-4253-93a3-9f58fa20b6f7" />  <img width="583" height="678" alt="image" src="https://github.com/user-attachments/assets/b3e1c658-bf87-4366-afbe-854ba2def372" />
 
- 
 : 특정 카테고리에 오류가 극도로 집중되는 전형적인 파레토 법칙(80:20 법칙)이 확인됨.  
 Dairy(유제품) 및 Fruits & Vegetables(과채류)의 압도적 비중으로,  
 
@@ -30,13 +29,6 @@ Dairy(유제품) 및 Fruits & Vegetables(과채류)의 압도적 비중으로,
 
 하위 카테고리의 안정성:
 Oils & Fats (4건, 6.12%), Bakery (1건, 2.04%) 등은 오류 발생 빈도가 매우 낮아 현재 관리 상태가 양호하거나 취급 빈도 자체가 적은 것으로 판단
-<br>
-<br>
-
-## 📊 2. SKU(상품)별 오류 발생 특성 분석 (TOP 10)  
-<img width="1048" height="607" alt="image" src="https://github.com/user-attachments/assets/affd4ecf-0223-4253-93a3-9f58fa20b6f7" />  
-
-전체 49건 중 상위 10개 SKU가 차지하는 비중이 81.63%(40건)에 달합니다. 소수의 고위험 품목이 존재하며, 상품 성격에 따라 다음과 같은 특성을 보인다.
 <br>
 
 ① 유사상품 및 보관 온도 민감 품목의 높은 오류 (Dairy)  
@@ -62,6 +54,10 @@ Zucchini (4건), Cauliflower (4건), Onion (2건): 과채류 내에서 오류를
 
 <br>
 <br>
+
+## 📊 2. SKU(상품)특성에 따른 오류 발생 로케이션 특성 분석  
+
+
 
 ---
 
