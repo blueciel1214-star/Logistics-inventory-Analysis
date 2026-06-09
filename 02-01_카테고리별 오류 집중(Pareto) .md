@@ -20,11 +20,12 @@
 <img width="1048" height="607" alt="image" src="https://github.com/user-attachments/assets/affd4ecf-0223-4253-93a3-9f58fa20b6f7" />  
 
 ---
-🔍 데이터 요약 및 인사이트
-<img width="583" height="678" alt="image" src="https://github.com/user-attachments/assets/b3e1c658-bf87-4366-afbe-854ba2def372" />
 
 📊 특정 상품별 오류 발생 비중 (Top 10)  
 아래 차트는 오류 발생 건수가 가장 높은 상위 10개 상품을 나타냅니다.  
+
+
+<img width="1189" height="343" alt="image" src="https://github.com/user-attachments/assets/67cc7aaa-c1b5-4936-952e-faac3f1886cd" />
 
 * Dairy 카테고리에 오류가 극도로 집중되어 있음을 시각적으로 확인할 수 있다.    
 * Dairy (유제품) 카테고리인 (Ricotta/Parmesan/Gouda) Cheese, Egg (Turkey/Chicken)가 상위 10개 중 절반 이상을 차지하며 오류를 독식하고 있습니다.  
