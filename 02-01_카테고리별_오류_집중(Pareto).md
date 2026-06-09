@@ -21,7 +21,7 @@
 ---
 <br>
 <br>
-## 📊 **1. 카테고리별 오류 집중도 분석 (80:20 파레토 법칙의 지배)**
+## 📊 1. 카테고리별 오류 집중도 분석 (80:20 파레토 법칙의 지배)
 아래 차트는 오류 발생 건수가 가장 높은 상위 10개 상품을 나타냅니다.  
 
 <img width="583" height="678" alt="image" src="https://github.com/user-attachments/assets/b3e1c658-bf87-4366-afbe-854ba2def372" />
