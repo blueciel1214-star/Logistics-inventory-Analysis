@@ -32,6 +32,7 @@ _즉, 이 두 핵심 영역만 집중 개선해도 현장 오퍼레이션 오류
 * **Ricotta Cheese (8건, 16.33%) :** 단일 SKU 기준 전체 오류 발생 1위 품목
 * **Egg - Turkey / Chicken (11건, 22.5%) :** 터키알(6건)과 계란(5건)의 합산 오류 규모는 단일 1위인 리코타 치즈를 상회함
  <br>
+**[유사 외관 예시]** 동일 브랜드의 모짜렐라, 파스타치즈, 고다치즈 등은 디자인을 공유하여 외관이 극도로 유사하다.
   <img width="623" height="274" alt="image" src="https://github.com/user-attachments/assets/735e4e75-f27f-49d2-8ae3-2dfeeebaf518" />
 
 <br>
