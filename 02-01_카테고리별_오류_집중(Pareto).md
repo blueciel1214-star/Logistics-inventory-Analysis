@@ -17,7 +17,8 @@
 ---
 ## 📊 1.카테고리별 오류 집중도 분석 (80:20 파레토 법칙의 지배)
 
-<img width="1323" height="548" alt="image" src="https://github.com/user-attachments/assets/a707b27b-eee3-450b-b139-819ded2ca284" />
+<img width="1482" height="599" alt="image" src="https://github.com/user-attachments/assets/0a6d7514-d152-44b8-8110-99b5f4e55946" />
+
 
 
 > **💡 핵심 요약 :**
