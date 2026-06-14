@@ -1,4 +1,4 @@
-<img width="89" height="175" alt="image" src="https://github.com/user-attachments/assets/a2c29517-0b9b-47ff-b7b6-a888fe5b376f" /># 3. 카테고리별 오류 분석  
+# 3. 카테고리별 오류 분석  
 : 앞선 분석에서 확인된 작업자 및 로케이션 요인 외에도,  
 상품 자체의 특성이 오류 발생에 영향을 미칠 가능성을 고려하여 카테고리 및 SKU 기준의 오류 집중 패턴을 추가 분석하였다.  
 
