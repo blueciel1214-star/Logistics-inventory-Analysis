@@ -19,7 +19,8 @@
 ---
 
 ### 📊 [작업자별 KPI 통합 지표]
-<img width="1008" height="207" alt="image" src="https://github.com/user-attachments/assets/96414f05-762b-47bb-a380-cf10a35da726" />
+![작업자별KPI수치에따른분류](./images/charts/01_첨부이미지/01_작업자_KPI.png)
+
 
 > **💡 핵심 산정 기준 및 기획 의도**
 > 
@@ -35,10 +36,10 @@
 >   작업자가 현장에서 수행한 **모든 SBC 조사 내역을 집계하여, 작업 과정 중 발생한 오류 판정을 누적 계산**하였다.
 >  * 이를 통해 **작업자 개인의 순수 품질 리스크(Human Error)를 왜곡 없이 추출**하고자 하였다.
 
-<img width="1272" height="131" alt="image" src="https://github.com/user-attachments/assets/8056f68b-4a0c-4622-a5e8-f54bc389f7cd" />
+![작업자별KIP수치카드](./images/charts/01_첨부이미지/01_작업자_KPI_카드.png)
 
+![작업자별KPI산점도](./images/charts/01_첨부이미지/01_작업자_KPI_산점도.png)
 
-<img width="1154" height="509" alt="image" src="https://github.com/user-attachments/assets/b4fa42ee-0e95-438b-92d8-9a640a1c7950" />
 
 
 
