@@ -17,9 +17,9 @@
 
 ## 📉 4-1. 프로세스 오류 기반 작업시간 손실 분석
 
-<img width="646" height="475" alt="image" src="https://github.com/user-attachments/assets/fa8baba8-a163-4db5-89c7-7efafd1a772c" />
+![오류로인한 시간손실차트](./images/charts/03_첨부이미지/03_오류로인한_손실.png)
+![오류로인한 손실수치](./images/charts/03_첨부이미지/03_오류로인한_시간손실_수치.png)
 
-<img width="613" height="62" alt="image" src="https://github.com/user-attachments/assets/5650d264-6057-4072-9b06-4a302fc7f59a" />
 
 ### 💡 핵심 요약 (Key Summary)
 SBC-CC 공정 내 에러 발생 시 리드타임이 정상 건 대비 **12.4배 증가**하며(막대그래프), 총 **19.13시간의 운영 손실** 이 발생함(도넛차트).  
