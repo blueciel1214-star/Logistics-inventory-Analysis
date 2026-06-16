@@ -15,7 +15,7 @@
 - [SQL : 오류로 인한 추가 공수(재작업 시간)분석 쿼리](./SQL/오류로_인한_추가_작업시간분석.sql)
 ---
 
-## 📉 4-1. 프로세스 오류 기반 가동 손실 분석
+## 📉 4-1. 프로세스 오류 기반 작업시간 손실 분석
 
 <img width="646" height="475" alt="image" src="https://github.com/user-attachments/assets/fa8baba8-a163-4db5-89c7-7efafd1a772c" />
 
