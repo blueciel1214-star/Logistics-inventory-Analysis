@@ -75,6 +75,9 @@ SBC 작업 데이터 (sbc_raw.csv)
 | qty_result | 판정 결과 |
 | start_worktime | 시작 시간 |
 | final_worktime | 종료 시간 |
+| category | (상품)카테고리 |
+| product_id | SKU|
+|qty_diff|전산실물 수량차이|
 
 
 CC 검수 데이터 (cc_raw.csv)
@@ -83,11 +86,15 @@ CC 검수 데이터 (cc_raw.csv)
 |---|---|
 | worker_id | 작업자 ID |
 | location | 로케이션 |
+|작업상태|최종차수|
 | product_name | 상품명 |
 | final_real_qty | 최종 실사 수량 |
+|final_system_qty|최종 전산 수량|
 | cc_status | 확정 상태 |
 | 1차 작업시간 | 시작 시간 |
 | 최종 작업시간 | 종료 시간 |
+| category | (상품)카테고리 |
+| product_id | SKU|
 
 
 ---
