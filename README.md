@@ -63,7 +63,7 @@
 | name | 작업자 이름 |
 
 
-SBC 작업 데이터 (sbc_raw.csv)
+SBC 작업 데이터 (df_sbc_raw._simulated.csv)
 
 | 컬럼명 | 설명 |
 |---|---|
@@ -80,7 +80,7 @@ SBC 작업 데이터 (sbc_raw.csv)
 |qty_diff|전산실물 수량차이|
 
 
-CC 검수 데이터 (cc_raw.csv)
+CC 검수 데이터 (df_cc_raw._simulated.csv)
 
 | 컬럼명 | 설명 |
 |---|---|
